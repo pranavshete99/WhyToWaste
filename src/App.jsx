@@ -1,16 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Home from'../components/Home.jsx'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+import React from 'react'
+import Home from '../pages/Home'
+const App = () => {
   return (
-    <>
+    <div className='bg-red-200 font-semibold text-2xl'>
       <Home />
-    </>
+    </div>
   )
 }
 
